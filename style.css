@@ -1,0 +1,13 @@
+#container {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.display1 {
+  display: flex;
+  border: 1px solid black;
+  height:100px;
+}
