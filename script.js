@@ -35,3 +35,6 @@ const addButton = document.querySelector('.addButton');
 const subtractButton = document.querySelector('.subtractButton');
 const divideButton = document.querySelector('.divideButton');
 const multiplyButton = document.querySelector('.multiplyButton');
+const clearButton = document.querySelector('.clearButton');
+const deleteButton = document.querySelector('.deleteButton');
+const equalButton = document.querySelector('.equalButton');
