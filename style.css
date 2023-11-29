@@ -11,3 +11,25 @@
   border: 1px solid black;
   height:100px;
 }
+
+#numButtons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.int1,
+.int2,
+.int3,
+.int4,
+.int5,
+.int6,
+.int7,
+.int8,
+.int9,
+.int0 {
+  width: 125px;
+  height: 50px;
+  
+}
