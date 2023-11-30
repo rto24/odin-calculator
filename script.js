@@ -56,8 +56,44 @@ document.querySelectorAll('button').forEach(button => {
     document.querySelector('.display1').textContent = result;
     if (result == 'Infinity') {
       alert('Cannot divide by 0');
-    }
-  })
+    } 
+  });
 });
 
+function keyDownInputs() {
+  document.body.addEventListener('keydown', (event) => {
+    if (event.key == 1) {
+      result += event.key;   
+      document.querySelector('.display1').textContent = result;
+    } else if (event.key == 2) {
+      result += event.key;
+      document.querySelector('.display1').textContent = result;
+    } else if (event.key == 3) {
+      result += event.key;
+      document.querySelector('.display1').textContent = result;
+    } else if (event.key == 4) {
+      result += event.key;
+      document.querySelector('.display1').textContent = result;
+    } else if (event.key == 5) {
+      result += event.key;
+      document.querySelector('.display1').textContent = result;
+    } else if (event.key == 6) {
+      result += event.key;
+      document.querySelector('.display1').textContent = result;
+    } else if (event.key == 7) {
+      result += event.key;
+      document.querySelector('.display1').textContent = result;
+    } else if (event.key == 8) {
+      result += event.key;
+      document.querySelector('.display1').textContent = result;
+    } else if (event.key == 9) {
+      result += event.key;
+      document.querySelector('.display1').textContent = result;
+    } else if (event.key == 0) {
+      result += event.key;
+      document.querySelector('.display1').textContent = result;
+    }
+  })
+};
 
+keyDownInputs();
