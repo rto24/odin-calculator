@@ -54,6 +54,10 @@ document.querySelectorAll('button').forEach(button => {
       result += character;
     }
     document.querySelector('.display1').textContent = result;
+    if (result == 'Infinity') {
+      alert('Cannot divide by 0');
+    }
   })
 });
+
 
