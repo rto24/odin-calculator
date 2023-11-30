@@ -16,6 +16,8 @@ function multiply(a, b) {
 
 const container = document.querySelector('#container');
 
+const numInput = document.querySelector('#numButtons');
+
 //number buttons
 
 const int1 = document.querySelector('.int1');
