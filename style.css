@@ -6,6 +6,7 @@
   margin: 0 auto;
   border: 2px solid black;
   border-radius: 20px;
+  background-color: black;
 }
 
 .display1 {
@@ -16,6 +17,7 @@
   justify-content: center;
   align-items: center;
   margin: 12px auto;
+  background-color: white;
 }
 
 #numButtons
