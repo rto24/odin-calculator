@@ -31,7 +31,7 @@ html {
   justify-content: center;
   gap: 5px;
   flex-wrap: wrap;
-}
+ }
 
 #opButtons {
   display: flex;
@@ -53,6 +53,7 @@ html {
 .int0 {
   width: 125px;
   height: 50px; 
+  font-size: 20px;
 }
 
 .addButton,
@@ -64,6 +65,7 @@ html {
 .equalButton {
   width: 125px;
   height: 50px; 
+  font-size: 20px;
 }
 
 .equalButton {
